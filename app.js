@@ -13,11 +13,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://jayakrish10s10:xuSMtr4Qwxq4iGzV@cluster0.vfoiaan.mongodb.net/",
-    {
-      useNewURLParser: true,
-      useUnifiedTopology: true,
-    }
+    "mongodb+srv://jayakrish10s10:xuSMtr4Qwxq4iGzV@cluster0.vfoiaan.mongodb.net/"
   )
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error(err));
